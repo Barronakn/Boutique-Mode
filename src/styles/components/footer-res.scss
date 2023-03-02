@@ -1,0 +1,20 @@
+@media screen and (max-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mail form {
+    text-align: center;
+  }
+  #btn {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .paiemant img {
+  width: 200px;
+}
+}

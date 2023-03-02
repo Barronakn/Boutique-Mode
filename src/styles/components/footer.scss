@@ -1,0 +1,59 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  border-top: 2px solid #fff;
+  margin-top: 100px;
+  color: #fff;
+}
+
+.p25 {
+   padding: 25px;
+ }
+
+.adresse {
+    justify-content: center;
+    align-items: center;
+}
+
+.mail {
+  background-color: #5f7776;
+}
+
+.mail form {
+  margin-top: 25px;
+}
+
+.mail form input {
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+}
+
+.mail form input::placeholder {
+  padding: 10px;
+}
+
+.mail form input[type="email"] {
+  font-size: 15px;
+}
+
+#btn {
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+#btn:hover {
+  cursor: pointer;
+  background: #000;
+  color: #fff;
+}
+
+.footer h4 {
+  color: #ffa601;
+  margin-bottom: 25px;
+  text-align: center;
+}
+ 
+.paiemant img {
+  width: 250px;
+}

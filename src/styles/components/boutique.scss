@@ -1,0 +1,71 @@
+.boutique {
+  text-align: center;
+  margin-top: 75px;
+  color: #fff;
+}
+
+.boutique h1 {
+  font-size: 50px;
+  color: #ffa601;
+}
+
+.boutique h2 {
+  margin-top: 25px;
+  font-size: 30px;
+  color: #01fdba;
+  margin-bottom: 75px;
+}
+
+.boutiqueContainer {
+  background: linear-gradient(#fff 1%, #0000ff 35%, #000000);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  display: flex;
+  padding: 125px 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.boutiqueContainer a {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.boutiqueContainer a:hover {
+  color: #c21dc2;
+  text-decoration: underline;
+}
+
+.boutiqueContainer img {
+  width: 300px;
+  height: 400px;
+  cursor: pointer;
+}
+
+.translate:hover {
+  transform: translateY(5px);
+  background: #1d24f3;
+  box-shadow: -5px 5px 5px;
+  border-radius: 15px;
+  transition: 2s;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.homme {
+  margin-left: 1%;
+}
+
+.childs {
+  display: flex;
+}
+
+.childs img {
+  width: 200px;
+}

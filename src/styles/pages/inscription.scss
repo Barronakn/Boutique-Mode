@@ -1,0 +1,41 @@
+.inscription {
+  display: flex;
+}
+
+.inscription .left {
+  margin-top: 100px;
+  width: 50%;
+  background: -webkit-linear-gradient(#ffa601, #01fdba);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+}
+
+.inscription .right {
+  text-align: center;
+  background: #fff;
+  width: 50%;
+  padding: 100px;
+  border: none;
+  border-radius: 15px;
+}
+
+.inscription .right h1 {
+  margin-bottom: 20px;
+}
+
+.inscription .right label {
+  text-align: justify;
+}
+
+.inscription .right input {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.inscription .right #btn {
+  background-color: #6112e0;
+  border-radius: 50px;
+  color: white;
+}

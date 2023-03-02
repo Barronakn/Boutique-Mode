@@ -1,0 +1,27 @@
+.contact h1 {
+    color: #ffa601;
+    padding-top: 200px;
+    text-align: center;
+    font-size: 55px;
+    text-transform: uppercase;
+}
+
+.service, .livraison {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.contact h2 {
+    color: #fff;
+    font-size: 45px;
+}
+
+.service a, .livraison a {
+    color: black;
+    font-size: 35px;
+}
+
+.service a:hover, .livraison a:hover {
+    color: red;
+}

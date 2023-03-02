@@ -1,0 +1,37 @@
+@media screen and (max-width: 815px) {
+  .contact h1 {
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  .service,
+  .livraison {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact h2 {
+    font-size: 45px;
+  }
+
+  .service a,
+  .livraison a {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .contact h1 {
+    font-size: 40px;
+  }
+  .contact h2 {
+    font-size: 30px;
+  }
+
+  .service a,
+  .livraison a {
+    font-size: 20px;
+  }
+}

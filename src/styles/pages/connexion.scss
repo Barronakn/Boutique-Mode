@@ -1,0 +1,36 @@
+.connexion {
+  // margin: 5% auto;
+  text-align: center;
+  background: #fff;
+  width: 500px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 100px;
+  border: none;
+  border-radius: 15px;
+}
+
+.connexion h1 {
+  margin-bottom: 20px;
+}
+
+.connexion label {
+  text-align: justify;
+}
+
+.mdp {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.connexion input {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.connexion #btn {
+  background-color: #6112e0;
+  border-radius: 50px;
+  color: white;
+}

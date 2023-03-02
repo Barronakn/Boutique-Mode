@@ -1,0 +1,84 @@
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  width: 100%;
+  margin-top: 2%;
+  z-index: 0;
+}
+
+.logo a {
+  display: flex;
+  flex-direction: column;
+  color: #ffa601;
+  font-weight: bold;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.logo a span {
+  color: #01fdba;
+}
+
+.nav ul {
+  display: flex;
+  column-gap: 35px;
+  border: 2px double #556b2f;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.nav ul li a {
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.nav ul li a:hover {
+  color: #b5b3b5b3;
+}
+
+.icon_menu {
+  width: 50px;
+  height: 50px;
+  color: white;
+  display: none;
+}
+
+.icon_reset {
+  width: 50px;
+  height: 50px;
+  color: white;
+}
+
+.compte {
+  display: flex;
+  column-gap: 25px;
+}
+
+.compte a {
+    color: #fff;
+    cursor: pointer;
+    height: 2px;
+    padding-top: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 35px;
+}
+
+.compte a:first-child:hover {
+    color: #b5b3b5b3;
+}
+
+.compte a:last-child {
+    color: #000;
+    background: #fff;
+    border: none;
+    border-radius: 50px;
+}
+
+.compte a:last-child:hover {
+    color: #fff;
+    background: #000;
+}

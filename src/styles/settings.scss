@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  max-width: 1700px !important;
+  margin: 0 auto;
+  background-color: #324241;
+}
+
+body::-webkit-scrollbar {
+  background-color: rgb(181, 219, 228);
+  border-radius: 15px;
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(30, 56, 112);
+  border-radius: 15px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(0, 153, 255);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}

@@ -1,0 +1,28 @@
+.home {
+  background: linear-gradient(#000000 30%, #0000ff 65%, #fff);
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.homeContainer {
+  padding-top: 150px;
+  margin: auto 100px;
+  padding-bottom: 15px;
+}
+
+.homeImg {
+  display: flex;
+  justify-content: space-around;
+}
+
+.homeImg img {
+  height: 500px;
+}
+
+.homeTitle {
+  color: #eddf60;
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 15%;
+}

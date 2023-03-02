@@ -1,0 +1,47 @@
+@media screen and (max-width: 975px) {
+  .inscription {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+  }
+
+  .inscription .left {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+  }
+  .inscription .right {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .inscription .right {
+    padding: 0;
+  }
+
+  .inscription .right h1 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .inscription .left {
+    font-size: 20px;
+  }
+  .inscription .right input {
+    width: 200px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 210px) {
+  .inscription .left {
+    font-size: 15px;
+  }
+  .inscription .right input {
+    width: 150px;
+  }
+}
